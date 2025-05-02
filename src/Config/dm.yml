@@ -1,0 +1,9 @@
+id: Core.Files.FileParserYaml.default
+
+arguments:
+  \Siarko\Files\Parse\ParserManager:
+    parsers:
+      default:
+        yaml:
+          mimeTypes: [ application/yaml, text/yaml]
+          parser: !type:object \Siarko\FileParserYaml\Parser\YamlFileParser

@@ -1,0 +1,23 @@
+{
+  "name": "h2sf/file-parser-yaml",
+  "description": "File parser module for YAML files - H2S Framework",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "type": "library",
+  "authors": [
+    {
+      "name": "H2S",
+      "email": "mateusz@siarko.pl"
+    }
+  ],
+    "require": {
+      "symfony/yaml": "^6.2",
+      "h2sf/serialization": "^0.3",
+      "h2sf/file-abstraction": "^0.3"
+    },
+  "autoload": {
+    "psr-4": {
+      "Siarko\\FileParserYaml\\": "src/"
+    }
+  }
+}
